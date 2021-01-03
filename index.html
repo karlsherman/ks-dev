@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Karl Sherman</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://kit.fontawesome.com/ca08840eae.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+ <div id="top"></div>
+
+  <nav class="navbar fixed-top navbar-dark">
+    <a class="top-nav-left" href="#about-me">About Me</a>
+    <a class="top-nav" href="#projects">Projects</a>
+    <a class="top-nav-right" href="#contact">Contact</a>
+  </nav>
+  <div class="sd-hero-image">
+    <div class="sd-hero-text">
+      <h1>KARL SHERMAN</h1>
+      <p>Versatile digital media professional with demonstrated success transforming ideas and strategies into elegant digital solutions.<br>(I like to design and build cool stuff.)</p>
+      <div class="icons">
+        <a href="https://twitter.com/karlsherman" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/karlsherman/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/karlsherman/" target="_blank" title="LinkedIn"></a>
+        <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:ks@karlsherman.com?subject=Sherman Contact Form" title="E-mail">
+          <i class="fas fa-at"></i>
+        </a>
+      </div>
+       
+    </div>
+  </div>
+    <div class="row p-3 about-me" id="about-me">
+<div class="col-lg-2">
+      </div>
+      <div class="col-sm-12 col-lg-8">
+        <h3 card-title>About Me</h3>
+        <p class="card-text">I am a web developer located in Houston, TX.</p>
+         <!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>His technical knowledge and experience are both broad and deep...</q>
+    <p class="author">Kayla Gagnet | Digital Executive</p>
+  </div>
+
+  <div class="mySlides">
+    <q>Rare is the person who understands design and UX as well as they understand technology and software.</q>
+    <p class="author">Matthew Ipsan | Media & Technology Executive</p>
+  </div>
+<!--
+  <div class="mySlides">
+    <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+    <p class="author">- Thomas A. Edison</p>
+  </div>
+-->
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+</div>   
+        <a href="#top">
+          <div class="arrow-up"></div>
+          </a>
+      </div>
+      <div class="col-lg-2">
+      </div>
+    </div>
+   
+   
+   
+    <div class="container">
+    <div class="row" id="projects">
+      <div class="col-md-12 mt-3 text-white">
+        <h3>Projects</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mt-3">
+        <div class="card text-white p-3 card-bg-black"><a href="http://www.rondaviesunsunghero.com"><img
+              class="img-thumbnail mb-3 mx-auto d-block" src="img/ron-davies.jpg" /></a>
+          <h4 class="card-title">Ron Davies Tribute</h4>
+          <p class="card-text">html/css/js/bootstrap</p>
+        </div>
+      </div>
+      <div class="col-md-6 mt-3">
+        <div class="card text-white p-3 card-bg-black"><a href="https://gaildavies.com"><img
+              class="img-thumbnail mb-3 mx-auto d-block" src="img/gail.jpg" /></a>
+          <h4 class="card-title">Gail Davies</h4>
+          <p class="card-text">html/css/js/bootstrap</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="#top">
+          <div class="arrow-up"></div>
+          </a>
+      </div>
+    </div>
+  </div>
+<div style="width:100%;background-color:#eee">
+  <div class="container">
+    <div class="row mt-3 contact-row p-3" id="contact">
+      <div class="col-xl-6">
+        <div class="p-2">
+          <h5 class="card-title">Let's Discuss Your Next Project!</h5>
+          <p>I would love to help you complete your next project. No matter the size I will make your online presence a reality. Fill out the form with a few details of what you had in mind and let's get building!</p>
+        </div> 
+      </div>
+      <div class="col-xl-6">
+        <div class="card bg-dark p-2 text-white">
+          <h5 class="card-title text-white">Contact Me</h5>
+          <form action="inc/sendEmail.php" method="post" id="ks-form" onsubmit="showHide(); return false;">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" name="form-name" id="form-name" aria-describedby="helpId" required>
+            <small id="helpId" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" name="form-email" id="form-email" aria-describedby="emailHelpId" required>
+            <small id="emailHelpId" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group">
+            <label>Project Details</label>
+            <textarea class="form-control" name="form-text-field" id="form-text-field" rows="3" required></textarea>
+          </div>
+          <div class="form-group response" id="ks-form-response" style="display: none;">
+            Thank you for submitting!
+          </div>
+          <div class="form-group">
+            <div class="g-recaptcha" data-sitekey="6LfBjAAVAAAAAF-cIrERD20okZ-C5lxd50yjZxCj"></div>
+          </div>
+          <input type="submit" name="submit" value="Submit" id="submit" />
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <a href="#top" class="arrow-up-link">
+        <div class="arrow-up"></div>
+        </a>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-md-12 mt-4 text-center p-2 footer">
+        <div class="icons">
+          <a href="https://twitter.com/karlsherman" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/karlsherman/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/karlsherman/" target="_blank" title="LinkedIn"></a>
+          <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:hi@karlsherman.com?subject=Karl Sherman Contact Form" title="E-mail">
+            <i class="fas fa-at"></i>
+          </a>
+        </div>
+		<div>karlsherman.com</div>
+      </div>
+    </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
